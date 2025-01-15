@@ -46,7 +46,7 @@ function Form(){
                 <h2>Registration Form</h2>
                 {/* <div><img src="https://static.vecteezy.com/system/resources/previews/050/980/771/non_2x/3d-programming-developer-working-on-project-illustration-png.png" alt="" height="150px" width="150px"/></div> */}
             <div><Link id='link-btn' to="/login">Already have an account? Signin.</Link></div>
-                <span>or signup with</span>
+                <span id='signup-with'>or signup with</span>
           <div className="socials">
             <i className="fab fa-facebook"></i>
             <i className="fab fa-google-plus"></i>

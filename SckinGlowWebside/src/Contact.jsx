@@ -50,7 +50,7 @@ const Contact = () => {
 </div> 
     </article>
     <article>
-    <h3>Book an Appointment</h3>
+    <h3 id='hedding-appointment'>Book an Appointment</h3>
       <div className="appointment-form-container">
         <form onSubmit={submitform} className="appointment-form">
           <label htmlFor="name">Full Name</label>

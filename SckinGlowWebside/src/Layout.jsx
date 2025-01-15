@@ -23,7 +23,13 @@ let navigate=useNavigate();
                     <li><Link id='link' to="/about">About</Link></li>
                     <li><Link id='link' to="/content">Treatments</Link></li>
                     <li><Link id='link' to="/service">Blog</Link></li>
-                    <li><Link id='link' to="/content">Locations</Link></li>
+                    <li><select className='contact-option'>
+                    <option><Link id='link' to="/contact">Locations</Link></option>
+                    <option><Link id='link' to="/location">Mumbai</Link></option>
+                    <option><Link id='link' to="/contact">Bhopal</Link></option>
+                     <option><Link id='link' to="/contact">New Delhi</Link></option>
+                     </select>
+                      </li>
                     <li><Link id='link' to="/contact" onClick={ButContact}>Contact Us</Link>
                     
                     {/* <select className='contact-option'>
