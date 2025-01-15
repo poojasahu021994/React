@@ -1,0 +1,22 @@
+{
+  "Data": [
+    {
+      "id": "1",
+      "name": "gourik sahu",
+      "age": 26
+    },
+    {
+      "id": "2",
+      "name": "pooja sahu",
+      "age": 26
+    },
+    {
+      "id": "055c",
+      "name": "kamlesh",
+      "age": "24",
+      "contact": "08862222233",
+      "city": "Pipariya",
+      "email": "pooja@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+/* update section table */
+.container {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  td {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #e1f5e1;
+  }
+  
+  .details-div{
+    height: 80px;
+    width: 200px;
+    overflow: scroll;
+  }
+
+  /* form */
+
+.contact-option{
+  border: none;
+  color:rgb(18, 110, 80);
+}
+.contact-option option{
+  border: none;
+}
+#main-div{
+  text-align: center;
+}
+
+  .appointment-container {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-top: 100px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width:1000px;
+    /* max-width: 400px; */
+    
+  }
+  
+  #edit-hedding {
+   text-align: center;
+    color: #ee9b1f;
+    font-weight: 600;
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .summit-button {
+    background-color: #ee9b1f;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .summit-button:hover {
+    background-color: #366d92;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
