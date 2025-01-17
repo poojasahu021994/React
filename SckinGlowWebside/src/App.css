@@ -106,6 +106,7 @@
   top: 0;
   width: 100%;
   background-color: white;
+  z-index: 1000;
 }
 .Main_navbar ul li img {
   height: 70px;
@@ -139,7 +140,7 @@
 }
 .Main_navbar ul li ul li #link{
   /* color: rgb(18, 110, 80); */
-  color: #366d92;
+  color: rgb(20, 93, 69);
   text-decoration: none;
   font-weight: 600;
 }
@@ -330,22 +331,22 @@ opacity: 1;
   margin: 1rem 2rem;
   color: #5c5858;
 }
-.home .detail  div{
+.home .detail  div p{
   color: #2e2d2d;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   margin-left: 2rem;
-  height: auto;
+  height:10px;
   width: 650px;
 }
 .home .detail .btn{
   display: inline-block;
   padding: 0.5rem 2rem;
-  background-color: #c49c61;
+  background-color: #ee9b1f;
   color:  white;
   margin: 1rem 2rem;
   text-align: center;
-  width: 100px;
+  width: 150px;
   cursor: pointer;
   border-radius: 5px;
   position: relative;
@@ -357,7 +358,7 @@ opacity: 1;
   content: '';
   width: 0%;
   height: 100%;
-  background-color:rgb(18, 110, 80);
+  background-color:rgb(25, 78, 60);
   color:white;
   left: 0;
   top: 0;
