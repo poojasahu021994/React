@@ -7,6 +7,8 @@ import Form from './Form'
 import Login from './Login'
 import './App.css'
 import Update from './Update'
+import GoToTop from './GoToTop'
+import Location from './Location'
 
 
 function App() {
@@ -24,7 +26,10 @@ function App() {
         <Route path="/signup" element={<Form/>}></Route>
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/update" element={<Update/>}></Route>
+        <Route path="/gototop" element={<GoToTop/>}></Route>
+        <Route path="/location" element={<Location/>}></Route>
       </Routes>
+      <GoToTop/>
       {!auth && <Footer />}
       
     </>

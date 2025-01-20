@@ -442,6 +442,41 @@ p{
 #dr-name,#dr-details{
 color: #fdf9fb;
 }
+
+/* GotoTop bar */
+.go-to-section{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.top-btn i{
+  font-size: 22px;
+  
+}
+.top-btn{
+  align-content: center;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #ee9b1f;
+  color: #ffffff;
+  box-shadow: 0 0 2px rgba(99, 176, 150, 0.4);
+  position: sticky;
+  right: 1;
+  bottom: 5rem;
+  z-index: 999;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  cursor: pointer;
+
+}
+.top-btn:hover{
+  background-color: rgb(25, 78, 60);
+  color: #ffffff;
+}
 /* footer */
 .footer{
   background-color:#fdf9fb;
