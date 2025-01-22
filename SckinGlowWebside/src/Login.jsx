@@ -16,7 +16,7 @@ const Login = () => {
     console.log(inputData)
 }
 
-  const finalSubmit = (e) => {
+  const LoginSubmit = (e) => {
     e.preventDefault();
 
     if (udata) {
@@ -26,12 +26,12 @@ const Login = () => {
         inputData.email === udata.email &&
         inputData.password === udata.password
       ) {
-        setMessage('Login Successful!');
+        setMessage('Login Successful..!');
       } else {
         setMessage('Account not found');
       }
     } else {
-      setMessage('No user data found in local storage');
+      setMessage('User data not found in local storage');
     }
   };
 
@@ -43,25 +43,27 @@ const Login = () => {
   return (
     <>
     <section className="login-section">
-      <form className="login_contener" onSubmit={finalSubmit}>
+      <form className="login_contener" onSubmit={LoginSubmit}>
       <div className="header">
         <h2>Login Page</h2>
         <div><Link id='link-btn' to="/signup">No account yet? Signup.</Link></div>
                 <span>or signup with</span>
-          <div class="socials">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-google-plus"></i>
-            <i class="fab fa-linkedin"></i>
+          <div className="socials">
+            <i className="fab fa-facebook"></i>
+            <i className="fab fa-google-plus"></i>
+            <i className="fab fa-linkedin"></i>
           </div>
       </div>
       <div className='input_filed'>
-        {/* <label htmlFor="">Name</label> */}
-        <input type="text" placeholder="  Enter your name" name="name" value={inputData.name} onChange={handleData} /> <br />
-        {/* <label htmlFor="">Email</label> */}
-        <input type="text" placeholder="  Enter Email Address" name="email" value={inputData.email} onChange={handleData} /> <br />
-        {/* <label htmlFor="">Password</label> */}
-        <input type="text" placeholder="  Enter Password" name="password" value={inputData.password} onChange={handleData} /> <br />
-        <input type="submit" />
+        
+        <input type="text" placeholder="  Enter your name" name="name" value={inputData.name} onChange={handleData} /> 
+        <br />
+        <input type="text" placeholder="  Enter Email Address" name="email" value={inputData.email} onChange={handleData} /> 
+        <br />
+        <input type="text" placeholder="  Enter Password" name="password" value={inputData.password} onChange={handleData} /> 
+        <br />
+        <button id='btn' type='submit'>login</button>
+        {/* <input type="submit" /> */}
       </div>
 
       </form>

@@ -58,20 +58,35 @@ clients and staff.</p>
             </article>
         </section>
 
-        <section>
-            <article>
-                <div></div>
-                <div></div>
+        <section className="celebrities-feadback-section">
+            <article className="feadback-article">
+            <div><img src="https://www.skinlab.in/wp-content/uploads/2022/01/gaurikhan.jpg" alt="" />
+            <div><p>Dr. palak always me is make me feel spacial. Give me a best advice and hug! Every job is a protratrait of the person who has done is and Dr. palak autographs herewith excellents</p></div>
+            </div>
+    
+                <div><img src="https://www.skinlab.in/wp-content/uploads/2022/01/vikramphadnis.jpeg" alt="" />
+                <div><p>Dr. palak always me is make me feel spacial. Give me a best advice and hug! Every job is a protratrait of the person who has done is and Dr. palak autographs herewith excellents</p></div>
+                </div>
             </article>
 
-            <article>
-                <div></div>
-                <div></div>
+            <article className="feadback-article">
+            <div><img src="https://www.skinlab.in/wp-content/uploads/2022/01/gaurikhan.jpg" alt="" />
+            <div><p>Dr. palak always me is make me feel spacial. Give me a best advice and hug! Every job is a protratrait of the person who has done is and Dr. palak autographs herewith excellents</p></div>
+            </div>
+    
+                <div><img src="https://www.skinlab.in/wp-content/uploads/2022/01/vikramphadnis.jpeg" alt="" />
+                <div><p>Dr. palak always me is make me feel spacial. Give me a best advice and hug! Every job is a protratrait of the person who has done is and Dr. palak autographs herewith excellents</p></div>
+                </div>
             </article>
             
-            <article>
-                <div><img src="https://www.skinlab.in/wp-content/uploads/2022/01/gaurikhan.jpg" alt="" /><p></p></div>
-                <div><img src="https://www.skinlab.in/wp-content/uploads/2022/01/vikramphadnis.jpeg" alt="" /><p>Dr. palak always me is make me feel spacial. Give me a best advice and hug! Every job is a protratrait of the person who has done is and Dr. palak autographs herewith excellents</p></div>
+            <article className="feadback-article">
+                <div><img src="https://www.skinlab.in/wp-content/uploads/2022/01/gaurikhan.jpg" alt="" />
+                <div><p>Dr. palak always me is make me feel spacial. Give me a best advice and hug! Every job is a protratrait of the person who has done is and Dr. palak autographs herewith excellents</p></div>
+                </div>
+    
+                <div><img src="https://www.skinlab.in/wp-content/uploads/2022/01/vikramphadnis.jpeg" alt="" />
+                <div><p>Dr. palak always me is make me feel spacial. Give me a best advice and hug! Every job is a protratrait of the person who has done is and Dr. palak autographs herewith excellents</p></div>
+                </div>
             </article>
         </section>
         </>

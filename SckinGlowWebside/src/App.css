@@ -390,6 +390,27 @@ margin: 50px 0 50px 0;
   width: 250px;
 }
 
+/* feadback section */
+.celebrities-feadback-section{
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  box-shadow: 0px 0px 1px rebeccapurple;
+  position: relative;
+}
+.feadback-article{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.feadback-article div img{
+  border-radius: 50%;
+}
+.feadback-article div p{
+  height: 100px;
+  width: 500px;
+}
 /* title section */
 .title-section{
   display: grid;
@@ -434,7 +455,7 @@ span{
   font-weight: 500;
   font-size: 18px;
 }
-p{
+#dr-pera{
   color: #fdf9fb;
   height: 15px;
 }
@@ -464,7 +485,7 @@ color: #fdf9fb;
   color: #ffffff;
   box-shadow: 0 0 2px rgba(99, 176, 150, 0.4);
   position: sticky;
-  right: 1;
+  right: 0;
   bottom: 5rem;
   z-index: 999;
   /* display: flex;

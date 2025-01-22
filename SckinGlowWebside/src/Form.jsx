@@ -7,11 +7,11 @@ function Form(){
     const [flag, setFlag] = useState(false)
     let [status,setStatus] = useState(false)
     useEffect(()=>{
-        console.log("Registered")
+        
     },[status])
 
     useEffect(()=>{
-        console.log("Registered")
+       
     },[flag])
 
     function handleData(e){
