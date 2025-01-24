@@ -67,7 +67,7 @@ const Update=()=>{
 
         <div className="container">
         <h2>User Information Table</h2>
-        <table border="">
+        <table border=" ">
         <thead>
         <th>Id</th>
         <th>Name</th>
@@ -76,8 +76,8 @@ const Update=()=>{
         <th>Date</th>
         <th>Time</th>
         <th>Message</th>
-        <th>Delete</th>
         <th>Edit</th>
+        <th>Delete</th>
         </thead>
         <tbody>
             {
@@ -91,8 +91,9 @@ const Update=()=>{
                         <td>{e.date}</td>
                         <td>{e.time}</td>
                         <td><div className='details-div'>{e.message}</div></td>
-                        <td><button onClick={()=>del(e.id)}>Delete</button></td>
-                        <td><button onClick={()=>{setfrmvisitble(true), setEditdata(e)}}>Edit Details</button></td>
+                        <td ><button className='edit-btn' onClick={()=>{setfrmvisitble(true), setEditdata(e)}}>Edit</button></td>
+                        <td ><button className='delete-btn' onClick={()=>del(e.id)}>Delete</button></td>
+    
                     </tr>
                     )
                 })

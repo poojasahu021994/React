@@ -14,7 +14,6 @@ let navigate=useNavigate();
         <nav className="Main_navbar">
             <ul>
                 <li>
-                   {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRiGnRbbKK1iI0Ta2MeAHDcp4jzY9ftGZfgA&s"> --> */}
                     <img src="GlowSkinStodioLogo.jpg"/>
                 </li>
                 <li>
@@ -24,29 +23,7 @@ let navigate=useNavigate();
                     <li><Link id='link' to="/content">Treatments</Link></li>
                     <li><Link id='link' to="/service">Blog</Link></li>
                     <li><Link id='link' to="/location">Locations</Link></li>
-                    {/* <li><select className='contact-option'>
-                    <option><Link id='link' to="/contact">Locations</Link></option>
-                    <option><Link id='link' to="/location">Mumbai</Link></option>
-                    <option><Link id='link' to="/contact">Bhopal</Link></option>
-                     <option><Link id='link' to="/contact">New Delhi</Link></option>
-                     </select>
-                      </li> */}
-                    <li><Link id='link' to="/contact" onClick={ButContact}>Contact Us</Link>
-                    
-                    {/* <select className='contact-option'>
-                    <option><button onClick={ButContact}>Appointment</button></option>
-                    <option><button onClick={ButContact}>Appointment</button></option>
-                    <option><button onClick={ButContact}>Appointment</button></option>
-                     <option><button onClick={ButContact}>Appointment</button></option>
-                     </select> */}
-
-                    {/* <select className='contact-option'>
-                    <option><Link id='link' to="/contact">Contact Us</Link></option>
-                    <option><button onClick={ButContact}>Appointment</button></option>
-                    <option><Link id='link' to="/contact">Contact-Number</Link></option>
-                     <option><Link id='link' to="/contact">Whatsapp Chat</Link></option>
-                     </select> */}
-                    </li>
+                    <li><Link id='link' to="/contact" onClick={ButContact}>Contact Us</Link></li>
                     <li><Link id='link' to="/service">Offer</Link></li>
 
                     </ul>
@@ -55,10 +32,30 @@ let navigate=useNavigate();
                     <ul>
                         <li><Link id='link' to="/signup">SignUp</Link></li>
                         <li><Link id='link' to="/login"><i className="fa-solid fa-user"></i></Link></li>
+                        <div>
+          <label for="input1"><i class="fa-solid fa-bars"></i></label>
+        </div>
                     </ul>
                 </li>
             </ul>
+
+
+          
         </nav>
+        </div>  
+        {/* mobile Navbar */}
+        <div className="shownav">
+      <ul>
+      <li><Link id='link' to="/">Home</Link></li>
+      <li><Link id='link' to="/about">About</Link></li>
+      <li><Link id='link' to="/content">Treatments</Link></li>
+      <li><Link id='link' to="/service">Blog</Link></li>
+      <li><Link id='link' to="/location">Locations</Link></li>
+      <li><Link id='link' to="/contact" onClick={ButContact}>Contact Us</Link></li>
+      <li><Link id='link' to="/service">Offer</Link></li>
+      </ul>
+    
+
 
         </div>
         </>

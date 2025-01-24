@@ -1,7 +1,7 @@
 const Home=()=>{
     return(
         <>
-        <section className="home" id="home">
+        {/* <section className="home" id="home">
             <div className="detail">
                 <span>Safe & Permanent</span>
                 <h3></h3>
@@ -12,7 +12,7 @@ const Home=()=>{
                 <div className="btn">Shop now</div>     
             </div>
             
-        </section>
+        </section> */}
         <section className="teatment-at" >
             <h1>Treatments At A Glance</h1>
             <article className="treatment-pic">
@@ -59,6 +59,9 @@ clients and staff.</p>
         </section>
 
         <section className="celebrities-feadback-section">
+        <div className="left-btn">
+            <button>{">"}</button>
+            </div>
             <article className="feadback-article">
             <div><img src="https://www.skinlab.in/wp-content/uploads/2022/01/gaurikhan.jpg" alt="" />
             <div><p>Dr. palak always me is make me feel spacial. Give me a best advice and hug! Every job is a protratrait of the person who has done is and Dr. palak autographs herewith excellents</p></div>
@@ -88,6 +91,10 @@ clients and staff.</p>
                 <div><p>Dr. palak always me is make me feel spacial. Give me a best advice and hug! Every job is a protratrait of the person who has done is and Dr. palak autographs herewith excellents</p></div>
                 </div>
             </article>
+            <div className="right-btn">
+            <button>{">"}</button>
+            </div>
+            
         </section>
         </>
     )
