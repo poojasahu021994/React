@@ -1,7 +1,7 @@
 const Home=()=>{
     return(
         <>
-        {/* <section className="home" id="home">
+        <section className="home" id="home">
             <div className="detail">
                 <span>Safe & Permanent</span>
                 <h3></h3>
@@ -9,10 +9,10 @@ const Home=()=>{
                 <div><p> Experience the difference with SkinLab’s award winning </p></div>  
                 <div><p>‘Gold Standard’ technology which has been trusted for over 20 years </p></div>  
 
-                <div className="btn">Shop now</div>     
+                <div className="btn">Book now</div>     
             </div>
             
-        </section> */}
+        </section>
         <section className="teatment-at" >
             <h1>Treatments At A Glance</h1>
             <article className="treatment-pic">
