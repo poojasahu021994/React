@@ -9,7 +9,7 @@ import './App.css'
 import Update from './Update'
 import GoToTop from './GoToTop'
 import Location from './Location'
-
+import Admin from './Admin'
 
 function App() {
   let local = useLocation()
@@ -28,6 +28,7 @@ function App() {
         <Route path="/update" element={<Update/>}></Route>
         <Route path="/gototop" element={<GoToTop/>}></Route>
         <Route path="/location" element={<Location/>}></Route>
+        <Route path="/admin" element={<Admin/>}></Route>        
       </Routes>
       <GoToTop/>
       {!auth && <Footer />}

@@ -25,6 +25,8 @@ let navigate=useNavigate();
                     <li><Link id='link' to="/location">Locations</Link></li>
                     <li><Link id='link' to="/contact" onClick={ButContact}>Contact Us</Link></li>
                     <li><Link id='link' to="/service">Offer</Link></li>
+                    <li><Link id='link' to="/admin">admin</Link></li>
+
 
                     </ul>
                 </li>
@@ -33,7 +35,7 @@ let navigate=useNavigate();
                         <li><Link id='link' to="/signup">SignUp</Link></li>
                         <li><Link id='link' to="/login"><i className="fa-solid fa-user"></i></Link></li>
                         <div>
-          <label for="input1"><i class="fa-solid fa-bars"></i></label>
+          <label htmlFor="input1"><i className="fa-solid fa-bars"></i></label>
         </div>
                     </ul>
                 </li>
