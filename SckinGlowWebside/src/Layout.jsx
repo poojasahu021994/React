@@ -21,7 +21,7 @@ let navigate=useNavigate();
                     <li><Link id='link' to="/">Home</Link></li>
                     <li><Link id='link' to="/about">About</Link></li>
                     <li><Link id='link' to="/content">Treatments</Link></li>
-                    <li><Link id='link' to="/service">Blog</Link></li>
+                    <li><Link id='link' to="/addtocart">Product</Link></li>
                     <li><Link id='link' to="/location">Locations</Link></li>
                     <li><Link id='link' to="/contact" onClick={ButContact}>Contact Us</Link></li>
                     <li><Link id='link' to="/service">Offer</Link></li>
