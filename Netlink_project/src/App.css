@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.Main-div{
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  margin: auto;
+}
+.hd{
+text-align: center;
+}
