@@ -1,0 +1,18 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+#delete_icon{
+  color: red;
+}
+#container{
+  height: 200px;
+  width: 400px;
+  margin: auto;
+  margin-top: 200px; 
+  background-color: rgb(156, 231, 206);
+  border-radius: 5%;
+}
+input{
+  margin: 5PX;
+}
